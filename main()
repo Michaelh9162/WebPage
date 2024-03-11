@@ -1,0 +1,66 @@
+<!DOCTYPE html>>
+<html>
+    <head>
+        <title> YUMGUM!! Leading Performance enhancing gum </title>
+    </head>
+    <body
+        style="background-color: lightgrey; font-family: 'Verdana', sans-serif;">
+        <!-- This is a heading with inline CSS for color and font size -->
+        <h1
+            style="color: crimson; font-size: 24px; text-align: center; margin-top: 20px;">Welcome
+            to Red & White Delights</h1>
+
+        <p
+            style="color: black; padding: 15px; border: 2px solid palevioletred; border-radius: 5px; margin: 20px">
+            This is a paragraph to introduce the webpage/ Notice how it's
+            differnet form the default style
+        </p>
+
+        <u1
+            style="font-size: 18px; list-style-type: square; padding-left: 40px;">
+            <li> YumGum Special $5!! </li>
+            <li> DumbGum Only $2.50 a piece </li>
+            <li> Gumgum COMPLETELY FREE!! </li>
+        </u1>
+
+        <img src="yumgum.png" alt="Description of Image"
+            style="width: 200px; height: auto; display: block; margin: auto;">
+
+        <style>
+                .dropdown {
+                  position: relative;
+                  display: inline-block;
+                }
+                
+                .dropdown-content {
+                  display: none;
+                  position: absolute;
+                  background-color: #f9f9f9;
+                  min-width: 160px;
+                  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+                  padding: 12px 16px;
+                  z-index: 1;
+                }
+                
+                .dropdown:hover .dropdown-content {
+                  display: block;
+                }
+                </style>
+
+        <div class="dropdown">
+            <span>Purchase YumGum TODAY!!</span>
+            <div class="dropdown-content">
+                <p>BUY</p>
+            </div>
+        </div>
+
+        <p> Visit <a href="https://www.mbusa.com/en/home"
+                style="color: red; text-decoration: none;"
+                onmouseover="this.style.color='orange'"
+                onmouseout="this.style.color='red'"> Example Website </a>
+            for more information </p>
+
+        <footer style="text-align: center; margin-top: 30px;">
+            <p>Copyright *copy; 2023</p></footer>
+    </body>
+</html>
